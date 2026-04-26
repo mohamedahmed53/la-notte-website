@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/style.css">
+    <title>Drinks Menu - La Notte Privata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header" data-header>
+    <div class="container">
+
+        <a href="index.html" class="logo">
+            <img src="./assest/images/ChatGPT Image Nov 18, 2025, 04_17_19 AM.png"
+                 width="150" height="90"
+                 alt="La Notte Privata - home">
+        </a>
+
+       
+        <nav class="navbar" data-navbar>
+
+            <button class="close-btn" aria-label="close menu">
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+           
+            <a href="index.html" class="logo">
+                <img src="./assest/images/ChatGPT Image Nov 18, 2025, 04_17_19 AM.png"
+                     width="150" height="90"
+                     alt="La Notte Privata - home">
+            </a>
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <span class="span">Home</span>
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="bar-menu.html" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <span class="span">Bar</span>
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="drinks.html" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <span class="span">Drinks</span>
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="appetizers.html" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <span class="span">Breakfast</span>
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="main-dishes.html" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <span class="span">Main Menu</span>
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="cart.html" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <span class="span">Cart</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="text-center">
+                <p class="headline-1 navbar-title">Visit us</p>
+
+                <address class="body-4">
+                    Marina Promenade, Abu Tig Marina<br>
+                    El Gouna, Red Sea, Egypt
+                </address>
+
+                <p class="body-4 navbar-text">Open: 9.30 am – 2.30 pm</p>
+
+                <a href="mailto:reservations@lanotteprivata.com"
+                   class="body-4 sidebar-link">
+                   reservations@lanotteprivata.com
+                </a>
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Booking Request</p>
+
+                <a href="Tel:+201149009090"
+                   class="body-1 contact-number hover-underline">
+                   +20-114-900-9090
+                </a>
+            </div>
+
+        </nav>
+
+      
+        <a href="#" class="btn btn-secondary">
+            <span class="text text-1">Find A Table</span>
+            <span class="text text-2" aria-hidden="true">Find A Table</span>
+        </a>
+
+      
+        <a href="cart.html" class="cart-icon" id="cart-icon">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span id="cart-count">0</span>
+        </a>
+
+  
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+    </div>
+</header>
+
+<main>
+    <article>
+        <section class="section menu text-center" aria-label="menu">
+            <div class="container">
+                <p class="section-subtitle label-2">Our Drink Offerings</p>
+                <h2 class="headline-1 section-title">Drinks Menu</h2>
+                <p class="section-text">Indulge in our curated selection of refreshing drinks and beverages.</p>
+
+                <div class="menu-content">
+                    <div class="menu-list">
+                       
+                        <div class="menu-category">
+                            <h3>Soda Drinks</h3>
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <img src="./assest/images/coca-cola-1.png" alt="Coca-Cola" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Coca-Cola</h4>
+                                        <p class="item-price">70 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Coca-Cola" data-price="70">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/spr.jpeg" alt="Sprite" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Sprite</h4>
+                                        <p class="item-price">70 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Sprite" data-price="70">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/sssd.jpeg" alt="Red Bull Original" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Red Bull Original</h4>
+                                        <p class="item-price">170 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Red Bull Original" data-price="170">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/war.jpeg" alt="Red Bull Watermelon" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Red Bull Watermelon</h4>
+                                        <p class="item-price">170 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Red Bull Watermelon" data-price="170">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/wwa.jpeg" alt="Red Bull Blue Edition" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Red Bull Blue Edition</h4>
+                                        <p class="item-price">170 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Red Bull Blue Edition" data-price="170">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/fee.jpeg" alt="Red Bull Sugar Free" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Red Bull Sugar Free</h4>
+                                        <p class="item-price">170 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Red Bull Sugar Free" data-price="170">Add to Cart</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                        <div class="menu-category">
+                            <h3>Fresh Juice</h3>
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <img src="./assest/images/orr.jpeg" alt="Orange Juice" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Orange Juice</h4>
+                                        <p class="item-price">120 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Orange Juice" data-price="120">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/lem.jpeg" alt="Lemon Juice" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Lemon Juice</h4>
+                                        <p class="item-price">120 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Lemon Juice" data-price="120">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/mang.jpeg" alt="Mango Juice" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Mango Juice</h4>
+                                        <p class="item-price">150 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Mango Juice" data-price="150">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/straw.jpeg" alt="Strawberry Juice" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Strawberry Juice</h4>
+                                        <p class="item-price">145 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Strawberry Juice" data-price="145">Add to Cart</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                        <div class="menu-category">
+                            <h3>Mojito</h3>
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <img src="./assest/images/dds.jpeg" alt="Lemon Mint Mojito" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Lemon Mint Mojito</h4>
+                                        <p class="item-price">180 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Lemon Mint Mojito" data-price="180">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/pass.jpeg" alt="Passion Fruit Mojito" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Passion Fruit Mojito</h4>
+                                        <p class="item-price">180 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Passion Fruit Mojito" data-price="180">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/peach.jpeg" alt="Peach Mojito" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Peach Mojito</h4>
+                                        <p class="item-price">180 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Peach Mojito" data-price="180">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/aaaaaa.jpeg" alt="Citrus Mix Mojito" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Citrus Mix Mojito</h4>
+                                        <p class="item-price">180 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Citrus Mix Mojito" data-price="180">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/ssswww.jpeg" alt="Strawberry Mojito" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Strawberry Mojito</h4>
+                                        <p class="item-price">180 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Strawberry Mojito" data-price="180">Add to Cart</button>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./assest/images/sk.jpeg" alt="Blue Berry Mojito" class="item-img" width="80" height="80"/>
+                                    <div class="item-content">
+                                        <h4 class="item-title">Blue Berry Mojito</h4>
+                                        <p class="item-price">180 EGP</p>
+                                        <button class="add-to-cart-btn" data-name="Blue Berry Mojito" data-price="180">Add to Cart</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</main>
+
+
+<footer class="footer section has-bg-image text-center" style="background-image: url('./assest/images/footer-bg.jpg')" aria-labelledby="footer-label">
+    <div class="container">
+
+        <div class="footer-content">
+
+            <p class="section-subtitle label-2" id="footer-label">Reservation</p>
+
+            <h2 class="headline-1 section-title">Book Your Table</h2>
+
+            <p class="section-text">
+                Experience the perfect blend of exquisite cuisine and vibrant nightlife at La Notte Privata. Reserve your spot now for an unforgettable evening.
+            </p>
+
+            <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+            </div>
+
+            <p class="title-4">Book Through Call</p>
+
+            <a href="tel:+201149009090" class="body-1 contact-number hover-underline">+20-114-900-9090</a>
+
+            <p class="title-4">Or Send us a Message</p>
+
+            <a href="mailto:reservations@lanotteprivata.com" class="body-1 contact-number hover-underline">reservations@lanotteprivata.com</a>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p class="copyright">
+                &copy; 2024 La Notte Privata. All Rights Reserved  <a href="#" class="link"></a>
+            </p>
+
+            <ul class="footer-bottom-list">
+
+                <li>
+                    <a href="index.html" class="body-4 footer-link">Home</a>
+                </li>
+
+                <li>
+                    <a href="index.html#Menus" class="body-4 footer-link">Menus</a>
+                </li>
+
+                <li>
+                    <a href="index.html#About-us" class="body-4 footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact" class="body-4 footer-link">Contact</a>
+                </li>
+
+                <li>
+                    <a href="drinks.html" class="body-4 footer-link">Drinks Menu</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</footer>
+
+
+<div class="overlay" data-nav-toggler data-overlay></div>
+
+<script src="./assest/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
